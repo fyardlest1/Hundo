@@ -47,12 +47,20 @@ const displayNumbers = (numbers) => {
         let number = numbers[index];
 
         if (number % 2 === 0) {
-            // templateRows += `<tr><td><strong>${number}</strong></td></tr>`
-            className = 'even'
+			// you can also do this to bold the even numbers
+            // Please refer to the source code for details concerning the following line of code
+            // Prism did not show the tag in the template literal
+			// templateRows += `<tr><td><strong>${number}</strong></td></tr>`
+			className = 'even'
         } else {
+            // Please refer to the source code for details concerning the following line of code
+            // Prism did not show the tag in the template literal
             // templateRows += `<tr><td>${number}</td></tr>`
             className = 'odd'
         }
+
+        // Please refer to the source code for details concerning the following line of code
+        // Prism did not show the tag in the template literal
         templateRows += `<tr><td class="${className}">${number}</td></tr>`
     }
 
