@@ -85,9 +85,9 @@
                            </div>
                            <div class="col-12">
                                <button class="d-block mx-auto btn text-light btnCustom btn-lg px-4 me-md-0" 
-                                type='button' id='btnSubmit' name='btnSubmit'>
-                                Display Hundonator
-                            </button>
+                                    type='button' id='btnSubmit' name='btnSubmit'>
+                                    Display Hundonator
+                                </button>
                            </div>
                        </form>
                        <h2 class='logoFont mt-3 border-2 border-bottom'>Results</h2>
@@ -156,6 +156,9 @@
     </script>
     <!-- External JS -->
     <script src="/js/site.js"></script>
+    <script>
+        document.getElementById('btnSubmit').addEventListener('click', getValues);
+    </script>
 </body>
 
 </html>
