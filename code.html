@@ -135,10 +135,28 @@
                    </pre>
                </div>
                <div class="col-lg-4">
-                    <p>The code is structed in one function</p>
-                    <h5>Hello World!</h5>
-                    <p>helloWorld is a function that display an alert with the message: "Hello World".
-                        And those two ways return the same results.</p> 
+                    <p>The code is structured in three functions</p>
+                    <h3>Hundonator</h3>
+                    <p>A JavaScript coding exercise using loop. Write a display numbers from 0 to 100.
+                        Display the even numbers in <strong>BOLD.</strong>
+                    </p> 
+                    <h3>Let's break it out!</h3>
+                    <h5>getValues()</h5>
+                    <p>The first function is the main function called <strong>getValues</strong> which will be executed when the user clicks on the "Display Hundonator" button. Go to: 
+                        <a href='/app.html'> <br >"The App"</a> page to see the button in action.</p>
+                    <p>So as you can see, the <strong>getValues</strong> 
+                        function takes start and/or end values passing inside the input, and conver them into integers, check if those values are
+                        numbers and if they are passing them insinde a new function called <strong>generateNumbers</strong> 
+                        and store the result in a new variable call numbers, and right after, call a new function called <strong>displayNumbers</strong>.
+                        Otherwise if the values are not of integer type the application will display an alert in order to ask the user to enter numbers in the fields.
+                    </p>
+                    <h5>generateNumbers()</h5>
+                    <p>The <strong>generateNumbers</strong> function takes two parameters. At first, we start by creating a new variable called numbers, and set it to
+                        an empty array, and with a for loop we get all numbers from start to end, put them in the array we've created, 
+                        and return the numbers variable.
+                    </p>
+                     <h5>displayNumbers()</h5>
+                     <p>The <strong>displayNumbers</strong> is responsible to create an html template so we can return on the screen the table rows with the array of numbers</p>
                </div>
            </div>
        </div>
